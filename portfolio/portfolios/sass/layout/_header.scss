@@ -1,0 +1,37 @@
+#header {
+    height: 440px;
+    
+    #logo{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    #main_title {
+	    margin: 50px 60px 10px 60px;
+    }
+    #sub_title{
+        margin: 0 60px;
+        color: #f1368e;
+        font-size: 10px;
+    }
+}
+
+#gnav {
+
+}
+
+//a {
+//    display: block;
+//    text-align: center;
+//    //高さを持たせるには①lineheightか②paddingを設定
+//    line-height: 56px;
+//    color: #fff;
+//    text-decoration: none;
+//    font-size: 16px;
+//    //               &:hover{}
+//    //       background-color: #183400;
+//    //    background-image: linear-gradient(to bottom, #1d4000, #1d1100);
+//    text-shadow: 1px 2px #000;
+//}
+
+//@media screen and (min-width:640px){}

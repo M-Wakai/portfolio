@@ -1,3 +1,31 @@
 #gnav_L{
     display: none;
 }
+
+#gnav_L ul {
+    margin: 0 auto;
+}
+
+#gnav_L li{
+    float: left;
+    width: 25%;
+}
+
+#gnav_S ul {
+    margin: 0 auto;
+}
+
+#gnav_S li{
+    float: left;
+    width: 25%;
+}
+
+@media screen and (min-width:768px){
+    #gnav_S{
+        display: none;
+    }
+    
+    #gnav_L{
+        display: block;
+    }
+}

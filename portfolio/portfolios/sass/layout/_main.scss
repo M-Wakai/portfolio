@@ -3,3 +3,118 @@
 //@media screen and (min-width:940px){
 //
 //}
+
+#header,
+#main,
+#main2,
+#sub{
+	text-align: center;
+}
+
+//#main_v {
+//	margin-bottom: 30px;
+//}
+
+.mainL {
+	float: left;
+    width: 50%;
+    h2{
+        font-size: 10px;
+    }
+    h1,h2,#hidepic{
+       text-align: right;
+    }
+    h1{
+        padding-right: 15px;
+    }
+}
+
+.mainR {
+	float: right;
+    font-size: 8px;
+    width: 40%;
+    dl{
+        text-align: left;
+    }
+    dt{
+        clear: both;
+        float: left;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    dd{
+        padding-bottom: 10px;
+    }
+    
+}
+
+#main2 {
+	clear: both;
+//    width: 80%;
+//    font-family: 'Meiryo', sans-serif;
+    
+    .Skills{
+        text-align: left;
+        margin-left: 25%;
+    }
+    
+    .Works h2{
+        text-align: left;
+        margin-left: 25%;
+    }
+    
+    .Works h3{
+        margin-bottom: 10px;
+    }
+    
+    .site{
+        width: 100%;
+        height: 150px;
+        text-align: center;
+
+    }
+    
+    .docho,
+    .flower{
+        float: left;
+        width: 48%;
+        text-align: right;
+    }
+    
+    .logo{
+        width: 100%;
+        height: 150px;
+
+    }
+    
+    .groupwork,
+    .kyoto{
+        float: right;
+        width: 48%;
+        text-align: left;
+    }
+}
+
+    .contact{
+        text-align: left;
+        margin-left: 25%;
+        p{
+            font-size: 12px;
+            padding-left: 20px;
+        }
+    }
+
+#footer {
+	text-align: center;
+    height: 30px;
+    padding-top: 20px;
+    font-size: 6px;
+}
+
+@media screen and (min-width:768px){
+    #titles {
+	  position: absolute;
+        top: 50px;
+        left: 20px;
+}
+}

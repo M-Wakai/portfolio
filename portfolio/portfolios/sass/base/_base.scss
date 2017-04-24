@@ -3,6 +3,7 @@ body{
   color: $letter-color1;
     font-weight: normal;
     line-height: $default-lh;
+    min-width: 320px;
 }
 
 img{
@@ -18,5 +19,26 @@ img{
 
 #wrapper {
 	height: 100%;
+    margin: 0 auto;
 }
 
+#header_v,
+#main_v,
+#main2_v,
+#sub_v{
+	background-size: cover;    
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#header_v{
+    margin-top: 0;
+}
+
+@media screen and (min-width:768px){
+    body{
+        max-width: 960px;
+        background-color: #ebfc9c;
+    }
+}

@@ -9,10 +9,14 @@
   width: 50%; }
   .mainL h2 {
     font-size: 10px; }
-  .mainL h1, .mainL h2, .mainL #hidepic {
+  .mainL h1,
+  .mainL h2,
+  .mainL #hidepic {
     text-align: right; }
   .mainL h1 {
     padding-right: 15px; }
+  .mainL #hidepic {
+    display: none; }
 
 .mainR {
   float: right;
@@ -55,6 +59,10 @@
     float: right;
     width: 48%;
     text-align: left; }
+  #main2 #hidepic2 {
+    display: none; }
+  #main2 #workspic {
+    display: none; }
 
 .contact {
   text-align: left;
@@ -73,14 +81,77 @@
   #titles {
     position: absolute;
     top: 50px;
-    left: 20px; } }
+    left: 20px; }
+  #main {
+    width: 100%;
+    height: 250px; }
+    #main #mainintro {
+      float: left;
+      width: 40%;
+      margin-left: -20px; }
+      #main #mainintro .mainL {
+        float: left;
+        width: 50%; }
+        #main #mainintro .mainL h2 {
+          font-size: 10px; }
+        #main #mainintro .mainL h1,
+        #main #mainintro .mainL h2,
+        #main #mainintro .mainL #hidepic {
+          text-align: right; }
+        #main #mainintro .mainL h1 {
+          padding-right: 15px; }
+      #main #mainintro .mainR {
+        float: right;
+        font-size: 8px;
+        width: 40%; }
+        #main #mainintro .mainR dl {
+          text-align: left; }
+        #main #mainintro .mainR dt {
+          clear: both;
+          float: left;
+          padding-right: 10px;
+          padding-bottom: 10px; }
+        #main #mainintro .mainR dd {
+          padding-bottom: 10px; }
+    #main #main_v {
+      float: right;
+      margin-right: 30px;
+      margin-top: 0; }
+  #main2 #main2_v {
+    float: right;
+    margin-right: 30px;
+    margin-top: 0; }
+  #main2 #main2intro {
+    float: left;
+    width: 50%;
+    margin-left: -20px; }
+    #main2 #main2intro .Skills {
+      height: 400px; }
+    #main2 #main2intro #works {
+      height: 400px;
+      margin-top: 30px;
+      float: left; }
+      #main2 #main2intro #works .Works {
+        float: left;
+        margin-left: 80px; }
+        #main2 #main2intro #works .Works h2 {
+          text-align: left; }
+      #main2 #main2intro #works #workspic {
+        display: block;
+        float: right;
+        margin-right: 30px; }
+  #sub {
+    clear: both; } }
 
 #header {
   height: 440px; }
-  #header #logo {
+  #header #logoM {
     position: absolute;
     top: 20px;
     left: 20px; }
+  #header #logoL {
+    position: absolute;
+    display: none; }
   #header #titles {
     margin: 50px auto; }
   #header #main_title {
@@ -89,6 +160,23 @@
     margin: 0 60px;
     color: #f1368e;
     font-size: 10px; }
+
+@media screen and (min-width: 768px) {
+  #header {
+    margin-bottom: 30px; }
+    #header #header_v {
+      margin-top: 30px;
+      float: right; }
+    #header #logoM {
+      display: none; }
+    #header #logoL {
+      display: block;
+      top: 30px;
+      left: 30px; }
+    #header #titles {
+      margin-left: -40px;
+      margin-top: 110px;
+      text-align: left; } }
 
 #gnav_L {
   display: none; }
@@ -111,7 +199,9 @@
   #gnav_S {
     display: none; }
   #gnav_L {
-    display: block; } }
+    display: block;
+    clear: both;
+    padding-top: 30px; } }
 
 @media screen and (min-width: 940px) {
   #footer {
@@ -223,7 +313,6 @@ img {
 #main2_v,
 #sub_v {
   background-size: cover;
-  width: 100%;
   margin-top: 30px;
   margin-bottom: 30px; }
 

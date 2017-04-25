@@ -1,10 +1,15 @@
 #header {
     height: 440px;
     
-    #logo{
+    #logoM{
         position: absolute;
         top: 20px;
         left: 20px;
+    }
+    
+    #logoL{
+        position: absolute;
+        display: none;
     }
     
     #titles {
@@ -20,8 +25,30 @@
     }
 }
 
-#gnav {
-
+@media screen and (min-width:768px){
+    #header{
+        margin-bottom: 30px;
+    #header_v{
+    margin-top: 30px;
+//    margin-left: 400px;
+        float: right;
+    
+    }
+    #logoM{
+        display: none;
+    }
+    
+    #logoL{
+        display: block;
+        top: 30px;
+        left: 30px;
+    }
+    #titles {
+	    margin-left: -40px;
+        margin-top: 110px;
+        text-align: left;
+    }
+  }
 }
 
 //a {
@@ -38,5 +65,4 @@
 //    text-shadow: 1px 2px #000;
 //}
 
-@media screen and (min-width:768px){
-}
+

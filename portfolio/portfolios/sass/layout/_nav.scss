@@ -1,6 +1,6 @@
 #gnav_L{
     display: none;
-}
+
 
 #gnav_L ul {
     margin: 0 auto;
@@ -9,6 +9,7 @@
 #gnav_L li{
     float: left;
     width: 25%;
+}
 }
 
 #gnav_S ul {
@@ -20,14 +21,22 @@
     width: 25%;
 }
 
+#pagetop{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
 @media screen and (min-width:768px){
     #gnav_S{
         display: none;
     }
     
-    #gnav_L{
-        display: block;
-        clear: both;
-        padding-top: 30px;
+
+#gnav_L{
+    display: block;
+    clear: both;
+    z-index: 100;
     }
 }

@@ -1,5 +1,11 @@
 #header {
-    height: 440px;
+    height: 100%;
+    
+    #header_v {
+    height: 280px;
+	background-image: url(../img/header_v.png);
+    background-size: cover;
+    }
     
     #logoM{
         position: absolute;
@@ -29,10 +35,10 @@
     #header{
         margin-bottom: 30px;
     #header_v{
-    margin-top: 30px;
-//    margin-left: 400px;
+        width: 50%;
+        margin-top: 30px;
+        margin-right: 30px;
         float: right;
-    
     }
     #logoM{
         display: none;

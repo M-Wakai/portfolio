@@ -6,12 +6,20 @@
 #main2,
 #sub {
     text-align: center;
+    height: 100%;
 }
 
-//#main_v {
-//	margin-bottom: 30px;
-//}
-.mainL {
+#main_v {
+	background-image: url(../img/main_v.png);
+    background-size: cover;
+    height: 250px;
+    padding-top: 50px;
+}
+#mainintro {
+//     width: 70%;
+    margin-left: -50px;
+    
+  .mainL {
     float: left;
     width: 50%;
     h2 {
@@ -28,9 +36,9 @@
     #hidepic{
         display: none;
     }
-}
+  }
 
-.mainR {
+  .mainR {
     float: right;
     font-size: 8px;
     width: 40%;
@@ -46,15 +54,29 @@
     dd {
         padding-bottom: 10px;
     }
+  }
 }
+//#main-v {
+//	float: right;
+//    width: 50%;
+//}
 
 #main2 {
     clear: both;
     //    width: 80%;
     //    font-family: 'Meiryo', sans-serif;
+    #main2_v {
+	    background-image: url(../img/skill.jpg);
+        background-size: cover;
+        height: 213px;
+}
     .Skills {
         text-align: left;
         margin-left: 25%;
+        margin-bottom: 30px;
+    }
+    #hidepic2{
+        display: none;
     }
     .Works h2 {
         text-align: left;
@@ -67,38 +89,59 @@
         width: 100%;
         height: 150px;
         text-align: center;
+    
+    .dochoL{
+        display: none;
     }
-    .docho,
-    .flower {
-        float: left;
-        width: 48%;
-        text-align: right;
+        .dochoM{
+            float: left;
+            width: 48%;
+            text-align: right;
+        }
+    .groupworkL {
+	    display: none;
     }
-    .logo {
-        width: 100%;
-        height: 150px;
-    }
-    .groupwork,
-    .kyoto {
+    .groupworkM {
         float: right;
         width: 48%;
         text-align: left;
     }
-    #hidepic2{
-        display: none;
+    }
+    .logo {
+        width: 100%;
+        height: 150px;
+      .flower {
+        float: left;
+        width: 48%;
+        text-align: right;
+      }
+    
+      .kyoto {
+        float: right;
+        width: 48%;
+        text-align: left;
+      }
     }
     #workspic {
 	    display: none;
     }
 }
 
-.contact {
+#sub{
+    #sub_v {
+	   background-image: url(../img/grapeswithwine.png);
+       background-size: cover;
+       height: 300px;
+     }
+
+ .contact {
     text-align: left;
     margin-left: 25%;
     p {
         font-size: 12px;
         padding-left: 20px;
     }
+ }
 }
 
 #footer {
@@ -121,6 +164,7 @@
             float: left; 
             width: 40%;
             margin-left: -20px;
+            margin-top: 30px;
             .mainL {
                 float: left;
                 width: 50%;
@@ -158,47 +202,88 @@
             }
         }
         #main_v {
-            float: right;
-            margin-right: 30px;
-            margin-top: 0;
+           width: 50%;
+           margin-top: 30px;
+           margin-right: 30px;
+           float: right;
         }
     }
     #main2 {
         #main2_v {
-	        float: right;
-            margin-right: 30px;
-            margin-top: 0;
+           width: 50%;
+           margin-top: 30px;
+           margin-right: 30px;
+           float: right;
         }
         #main2intro {
             float: left; 
-            width: 50%;
+            width: 45%;
             margin-left: -20px;
+            margin-top: 30px;
 //        #hidepic2{
 //        display: block;
 //        }
-             .Skills {
-	             height: 400px;
-             }
+            .Skills{
+                margin-bottom: 180px;
+            }
+             
             #works{
-                height: 400px;
-                margin-top: 30px;
-                float: left;
+                width: 100%;
+                height: 100%;
+                margin-top: 50px;
+//                float: right;
+                margin-left: 80px;
+                position: relative;
              .Works {
-	             float: left;
-                 margin-left: 80px;
                  h2{
+//                     text-align: left;
+                     margin-left: 0;
+                     margin-bottom: 10px;
+                 }
+              
+             .site {
+                 margin-bottom: 50px;
+                 h3{
                      text-align: left;
+                     padding-left: 10px;
+                 }
+	               .dochoL{
+                       display: block;
+                       float: left;
+//                       width: 48%;
+//                       text-align: left;
+                   }
+                   .dochoM{
+                       display: none;
+                   }
+                 .groupworkL {
+                 	display: block;
+                    float: right;
+//                    width: 80%;
+//                    text-align: left;
+    
+                 }
+                 .groupworkM {
+                 	display: none;
                  }
              }
- 
+             }
+                .logo{
+                    clear: both;
+                    position: absolute;
+                    top: 200px;
+                    left: 100px;
+                }
+           }
+          }
              #workspic {
 	         display: block;
              float: right;
              margin-right: 30px;
              }
-            }
+            
         }
-    }
+    
     #sub{
         clear: both;
     }

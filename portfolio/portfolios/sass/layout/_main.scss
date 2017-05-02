@@ -6,36 +6,32 @@
 #main2,
 #sub {
     text-align: center;
-    height: 100%;
 }
 
 #main_v {
 	background-image: url(../img/main_v.png);
     background-size: cover;
-    height: 250px;
-    padding-top: 50px;
+    height: 300px;
 }
 #mainintro {
 //     width: 70%;
-    margin-left: -50px;
-    
   .mainL {
     float: left;
-    width: 50%;
+    width: 40%;
     h2 {
         font-size: 10px;
     }
     h1,
     h2,
-    #hidepic {
+    #hidepic{
         text-align: right;
     }
     h1 {
         padding-right: 15px;
-    }
-    #hidepic{
-        display: none;
-    }
+    } 
+      #hidepic{
+          display: none;
+      }
   }
 
   .mainR {
@@ -135,12 +131,15 @@
      }
 
  .contact {
-    text-align: left;
-    margin-left: 25%;
+    text-align: center;
+//    margin-left: 25%;
     p {
         font-size: 12px;
         padding-left: 20px;
     }
+    h2{
+         margin-left: -120px;
+     }
  }
 }
 
@@ -163,25 +162,24 @@
         #mainintro {
             float: left; 
             width: 40%;
-            margin-left: -20px;
+            margin-left: 40px;
             margin-top: 30px;
             .mainL {
-                float: left;
-                width: 50%;
+//                float: left;
+//                width: 50%;
+                text-align: left;
+                
                 h2 {
                     font-size: 10px;
-                }
-                h1,
-                h2,
-                #hidepic {
-                    text-align: right;
+                    
                 }
                 h1 {
                     padding-right: 15px;
+                    
                 }
-//                #hidepic{
-//                    display: block;
-//                }
+                #hidepic{
+                    display: block;
+                }
             }
             .mainR {
                 float: right;
@@ -226,13 +224,18 @@
             .Skills{
                 margin-bottom: 180px;
             }
-             
+                #hidepic2{
+                    display: block;
+                    margin-top: -150px;
+                    margin-left: -90px;
+                }  
+            
             #works{
                 width: 100%;
                 height: 100%;
                 margin-top: 50px;
 //                float: right;
-                margin-left: 80px;
+                margin-left: 100px;
                 position: relative;
              .Works {
                  h2{
@@ -258,7 +261,8 @@
                    }
                  .groupworkL {
                  	display: block;
-                    float: right;
+                    float: left;
+                     margin-left: 20px;
 //                    width: 80%;
 //                    text-align: left;
     
@@ -271,7 +275,7 @@
                 .logo{
                     clear: both;
                     position: absolute;
-                    top: 200px;
+                    top: 240px;
                     left: 100px;
                 }
            }
@@ -284,7 +288,27 @@
             
         }
     
-    #sub{
-        clear: both;
-    }
+#sub{
+    clear: both;
+    #sub_v {
+           width: 50%;
+           margin-top: 30px;
+           margin-right: 30px;
+           float: right;
+     }
+
+ .contact {
+            float: left; 
+            width: 40%;
+     margin-top: 30px;
+
+     p{
+         font-size: 16px;
+         padding-left: 60px;
+     }
+ }
+}
+#footer {
+    font-size: 8px;
+}
 }

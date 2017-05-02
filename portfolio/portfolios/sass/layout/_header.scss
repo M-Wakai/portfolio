@@ -1,10 +1,7 @@
 #header {
-    height: 100%;
-    
     #header_v {
     height: 280px;
 	background-image: url(../img/header_v.png);
-    background-size: cover;
     }
     
     #logoM{
@@ -47,11 +44,11 @@
     #logoL{
         display: block;
         top: 30px;
-        left: 30px;
+        left: 50px;
     }
     #titles {
-	    margin-left: -40px;
-        margin-top: 110px;
+	    margin-left: -20px;
+        margin-top: 100px;
         text-align: left;
     }
   }

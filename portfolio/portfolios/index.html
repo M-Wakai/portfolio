@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -59,7 +58,8 @@
                 <div class="mainL">
                     <h1 id="name">若井　実</h1>
                     <h2 id="name_E">Minoru Wakai</h2>
-                    <div id="hidepic"><img src="img/hidingpic for profile.png"></div>
+                    <div id="hidepic" data-0="opacity: 0;" data-200="opacity: 1.0;" data-300="opacity: 1.0;" data-500="opacity: 0;"><img src="img/hidingpic for profile.png"></div>
+               
                 </div>
                 <div class="mainR">
                     <dl> <dt>2000年</dt>
@@ -88,25 +88,25 @@
             <div id="main2intro">
                 <div class="Skills">
                     <h2>Skills</h2>
-                    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    <p>xxxxxxxxxxxxxxxxxx</p>
                 </div>
-                <div id="hidepic2"><img src="img/programming.jpg"></div>
+                <div id="hidepic2" data-400="opacity: 0;" data-600="opacity: 1.0;" data-700="opacity: 1.0;" data-900="opacity: 0;"><img src="img/programming.jpg"></div>
                 <div id="works">
                     <div class="Works">
                         <h2>Works</h2>
                         <div class="site">
                             <h3>Site</h3>
                             <div class="dochoM">
-                                <a href="#"><img src="img/doucho_mini.png"></a>
+                                <a href="../dochos/index.html"alt="道庁サイト" target="_blank"><img src="img/doucho_mini.png"></a>
                             </div>
                             <div class="dochoL">
-                                <a href="#"><img src="img/dochoL.png"></a>
+                                <a href="../dochos/index.html"alt="道庁サイト" target="_blank"><img src="img/dochoL.png"></a>
                             </div>
                             <div class="groupworkM">
-                                <a href="#"><img src="img/groupwork_mini.png"></a>
+                                <a href="../TOPfixed/index.html" alt="グループワーク" target="_blank"><img src="img/groupwork_mini.png"></a>
                             </div>
                             <div class="groupworkL">
-                                <a href="#"><img src="img/groupwork.png"></a>
+                                <a href="../TOPfixed/index.html" alt="グループワーク" target="_blank"><img src="img/groupwork.png"></a>
                             </div>
                         </div>
                         </div>
@@ -129,10 +129,15 @@
             </div>
         </div>
         <footer id="footer">
-           <a href="#" id="pagetop"><img src="img/pagetop.png"></a>
+           <a href="#" id="pagetop"><img src="img/pagetop_mini.png"></a>
             <p class="cf"><small>Copyrights(c)M.W. all rights reserved</small></p>
         </footer>
     </div>
+        <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/skrollr.js"></script>
+        <script src="js/script.js"></script>
+
+    <script type="text/javascript">skrollr.init();</script>
 </body>
 
 </html>

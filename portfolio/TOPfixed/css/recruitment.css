@@ -1,0 +1,177 @@
+@charset= "utf-8";
+html,body{
+    height: 100%;
+}
+#home{
+    
+    background-image: url(../img/pc2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+#wrap{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+    color: #222;
+    line-height: 1.6;
+}
+
+#header{
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    background: rgba(270,900,900,0.6);
+    float: left;
+    position: fixed;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+#logo{
+    width: 250px;
+    height: 100px;
+    background-image: url(../img/nextone0221.png);
+    margin-bottom: 30px;
+}
+
+#gnav li{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#gnav a{
+/*    color: #333;*/
+    text-decoration: none;
+    font-family: "noto-sans japanese, sans-serif";
+    color: #222;
+    line-height: 1.6;
+}
+
+#gnav li a:nth-child(2){
+    color: #7fffbf;
+}
+
+#gnav li a:hover{
+
+        color: #a1a1a1;
+    -webkit-transition:color 1s 0s;
+    transition: color 1s 0s;
+}
+
+#btn a{
+    display: block;
+    width: 250px;
+    height: 100px;
+    background-image: url(../img/%E7%89%B9%E8%A8%AD%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9C%E3%82%BF%E3%83%B3%EF%BC%91.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 20px;
+    text-indent: -9999px;
+}
+
+----------------ここからサブ用に加筆を--------------------------
+#main{
+    width: 890px;
+    height: 100%;
+    font-family: "noto-sans japanese, sans-serif";
+    color: #222;
+    line-height: 1.6;
+
+}
+
+.main-t{
+    width: 890px;
+    float: right;
+    box-sizing: border-box;
+    padding: 40px;
+    background: rgba(270,900,900,0.6);
+    font-size: 18px;
+}
+
+.main-t h1{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+/*.main-b{
+    width: 940px;
+    height: 100px;
+}*/
+
+/*span{
+    color: #fff;
+}*/
+
+dl{
+/*    text-indent: 1.5em;*/
+}
+
+dt{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+dd{
+    margin-bottom: 10px;
+    text-indent: 0.9em;
+}
+
+.adobe1{
+    margin-bottom: 20px;
+    text-indent: 0.9em;
+}
+
+.panf{
+    margin: 20px 0;
+    text-indent: 0.9em;
+}
+
+-------------------------------------------------------------
+
+.sns-btn{
+/*    right: 20px;
+    bottom: 20px;*/
+/*    position: absolute;*/
+}
+
+#tw a{
+/*    float: right;*/
+/*    padding-top: 20px;*/
+/*       display: block;*/
+    right: 40px;
+    bottom: 20px;
+    position: fixed;
+}
+
+#gp a{
+/*    padding-top: 20px;*/
+/*    float: right; */
+    margin-right: 120px;
+    
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+}
+
+#tw a:hover{   
+    -webkit-transform: scale(1.2, 1.2);   
+    transform: scale(1.2, 1.2)
+        }
+
+#gp a:hover{
+    -webkit-transform: scale(1.2, 1.2);   
+    transform: scale(1.2, 1.2)
+}
+
+#copyright{
+    right: 40px;
+    bottom: 0;
+    position: fixed;
+}

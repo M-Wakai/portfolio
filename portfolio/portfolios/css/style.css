@@ -2,43 +2,40 @@
 #main,
 #main2,
 #sub {
-  text-align: center;
-  height: 100%; }
+  text-align: center; }
 
 #main_v {
   background-image: url(../img/main_v.png);
   background-size: cover;
-  height: 250px;
-  padding-top: 50px; }
+  height: 300px; }
 
-#mainintro {
-  margin-left: -50px; }
-  #mainintro .mainL {
+#mainintro .mainL {
+  float: left;
+  width: 40%; }
+  #mainintro .mainL h2 {
+    font-size: 10px; }
+  #mainintro .mainL h1,
+  #mainintro .mainL h2,
+  #mainintro .mainL #hidepic {
+    text-align: right; }
+  #mainintro .mainL h1 {
+    padding-right: 15px; }
+  #mainintro .mainL #hidepic {
+    display: none; }
+
+#mainintro .mainR {
+  float: right;
+  font-size: 8px;
+  width: 40%; }
+  #mainintro .mainR dl {
+    text-align: left; }
+  #mainintro .mainR dt {
+    clear: both;
     float: left;
-    width: 50%; }
-    #mainintro .mainL h2 {
-      font-size: 10px; }
-    #mainintro .mainL h1,
-    #mainintro .mainL h2,
-    #mainintro .mainL #hidepic {
-      text-align: right; }
-    #mainintro .mainL h1 {
-      padding-right: 15px; }
-    #mainintro .mainL #hidepic {
-      display: none; }
-  #mainintro .mainR {
-    float: right;
-    font-size: 8px;
-    width: 40%; }
-    #mainintro .mainR dl {
-      text-align: left; }
-    #mainintro .mainR dt {
-      clear: both;
-      float: left;
-      padding-right: 10px;
-      padding-bottom: 10px; }
-    #mainintro .mainR dd {
-      padding-bottom: 10px; }
+    padding-right: 10px;
+    padding-bottom: 10px; }
+  #mainintro .mainR dd {
+    padding-bottom: 10px; }
 
 #main2 {
   clear: both; }
@@ -93,11 +90,12 @@
   height: 300px; }
 
 #sub .contact {
-  text-align: left;
-  margin-left: 25%; }
+  text-align: center; }
   #sub .contact p {
     font-size: 12px;
     padding-left: 20px; }
+  #sub .contact h2 {
+    margin-left: -120px; }
 
 #footer {
   text-align: center;
@@ -116,19 +114,16 @@
     #main #mainintro {
       float: left;
       width: 40%;
-      margin-left: -20px;
+      margin-left: 40px;
       margin-top: 30px; }
       #main #mainintro .mainL {
-        float: left;
-        width: 50%; }
+        text-align: left; }
         #main #mainintro .mainL h2 {
           font-size: 10px; }
-        #main #mainintro .mainL h1,
-        #main #mainintro .mainL h2,
-        #main #mainintro .mainL #hidepic {
-          text-align: right; }
         #main #mainintro .mainL h1 {
           padding-right: 15px; }
+        #main #mainintro .mainL #hidepic {
+          display: block; }
       #main #mainintro .mainR {
         float: right;
         font-size: 8px;
@@ -159,11 +154,15 @@
     margin-top: 30px; }
     #main2 #main2intro .Skills {
       margin-bottom: 180px; }
+    #main2 #main2intro #hidepic2 {
+      display: block;
+      margin-top: -150px;
+      margin-left: -90px; }
     #main2 #main2intro #works {
       width: 100%;
       height: 100%;
       margin-top: 50px;
-      margin-left: 80px;
+      margin-left: 100px;
       position: relative; }
       #main2 #main2intro #works .Works h2 {
         margin-left: 0;
@@ -180,42 +179,59 @@
           display: none; }
         #main2 #main2intro #works .Works .site .groupworkL {
           display: block;
-          float: right; }
+          float: left;
+          margin-left: 20px; }
         #main2 #main2intro #works .Works .site .groupworkM {
           display: none; }
       #main2 #main2intro #works .logo {
         clear: both;
         position: absolute;
-        top: 200px;
+        top: 240px;
         left: 100px; }
   #main2 #workspic {
     display: block;
     float: right;
     margin-right: 30px; }
   #sub {
-    clear: both; } }
+    clear: both; }
+    #sub #sub_v {
+      width: 50%;
+      margin-top: 30px;
+      margin-right: 30px;
+      float: right; }
+    #sub .contact {
+      float: left;
+      width: 40%;
+      margin-top: 30px; }
+      #sub .contact p {
+        font-size: 16px;
+        padding-left: 60px; }
+  #footer {
+    font-size: 8px; } }
 
-#header {
-  height: 100%; }
-  #header #header_v {
-    height: 280px;
-    background-image: url(../img/header_v.png);
-    background-size: cover; }
-  #header #logoM {
-    position: absolute;
-    top: 20px;
-    left: 20px; }
-  #header #logoL {
-    position: absolute;
-    display: none; }
-  #header #titles {
-    margin: 50px auto; }
-  #header #main_title {
-    margin: 50px 60px 10px 60px; }
-  #header #sub_title {
-    margin: 0 60px;
-    color: #f1368e;
-    font-size: 10px; }
+#header #header_v {
+  height: 280px;
+  background-image: url(../img/header_v.png); }
+
+#header #logoM {
+  position: absolute;
+  top: 20px;
+  left: 20px; }
+
+#header #logoL {
+  position: absolute;
+  display: none; }
+
+#header #titles {
+  margin: 50px auto; }
+
+#header #main_title {
+  margin: 50px 60px 10px 60px; }
+
+#header #sub_title {
+  margin: 0 60px;
+  color: #f1368e;
+  font-size: 10px; }
 
 @media screen and (min-width: 768px) {
   #header {
@@ -230,10 +246,10 @@
     #header #logoL {
       display: block;
       top: 30px;
-      left: 30px; }
+      left: 50px; }
     #header #titles {
-      margin-left: -40px;
-      margin-top: 110px;
+      margin-left: -20px;
+      margin-top: 100px;
       text-align: left; } }
 
 #gnav_L {
@@ -265,9 +281,13 @@
     clear: both;
     z-index: 100; } }
 
-@media screen and (min-width: 940px) {
+#footer {
+  margin-bottom: 30px; }
+
+@media screen and (min-width: 768px) {
   #footer {
-    clear: both; } }
+    clear: both;
+    font-size: 12px; } }
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -383,5 +403,6 @@ img {
 
 @media screen and (min-width: 768px) {
   body {
-    max-width: 960px;
-    background-color: #ebfc9c; } }
+    max-width: 1200px;
+    background-color: #ebfc9c;
+    font-size: 1.5em; } }
